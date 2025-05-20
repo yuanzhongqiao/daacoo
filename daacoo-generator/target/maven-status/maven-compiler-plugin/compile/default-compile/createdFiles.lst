@@ -1,0 +1,13 @@
+com\daacoo\generator\service\impl\GenTableServiceImpl.class
+com\daacoo\generator\util\VelocityInitializer.class
+com\daacoo\generator\util\GenUtils.class
+com\daacoo\generator\service\impl\GenTableColumnServiceImpl.class
+com\daacoo\generator\entity\GenTable.class
+com\daacoo\generator\service\IGenTableService.class
+com\daacoo\generator\config\GenConfig.class
+com\daacoo\generator\mapper\GenTableColumnMapper.class
+com\daacoo\generator\controller\GenController.class
+com\daacoo\generator\service\IGenTableColumnService.class
+com\daacoo\generator\util\VelocityUtils.class
+com\daacoo\generator\entity\GenTableColumn.class
+com\daacoo\generator\mapper\GenTableMapper.class

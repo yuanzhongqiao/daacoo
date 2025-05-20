@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.daacoo</groupId>
+        <artifactId>daacoo</artifactId>
+        <version>4.8.0</version>
+    </parent>
+    <artifactId>daacoo-web</artifactId>
+    <packaging>war</packaging>
+    <description>
+        web APP enter
+    </description>
+
+    <dependencies>
+
+        <!-- SpringBoot集成thymeleaf模板 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+        <!-- spring-boot-devtools -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional> <!-- 表示依赖不会传递 -->
+        </dependency>
+
+        <!-- Mysql驱动包 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <!-- 核心模块 -->
+        <dependency>
+            <groupId>com.daacoo</groupId>
+            <artifactId>daacoo-framework</artifactId>
+        </dependency>
+
+        <!-- 定时任务 -->
+        <dependency>
+            <groupId>com.daacoo</groupId>
+            <artifactId>daacoo-quartz</artifactId>
+        </dependency>
+
+        <!-- 代码生成 -->
+        <dependency>
+            <groupId>com.daacoo</groupId>
+            <artifactId>daacoo-generator</artifactId>
+        </dependency>
+
+        <!-- 工作流模块 -->
+        <dependency>
+            <groupId>com.daacoo</groupId>
+            <artifactId>daacoo-activiti</artifactId>
+        </dependency>
+
+        <!-- OA系统模块 -->
+        <dependency>
+            <groupId>com.daacoo</groupId>
+            <artifactId>daacoo-oa</artifactId>
+        </dependency>
+
+        <!-- CMS系统模块 -->
+        <dependency>
+            <groupId>com.daacoo</groupId>
+            <artifactId>daacoo-cms</artifactId>
+        </dependency>
+
+        <!-- 文件管理器 -->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>daacoo-file-CKFinder</artifactId>
+            <version>${daacoo.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>daacoo-file-CKFinderPlugin-FileEditor</artifactId>
+            <version>${daacoo.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>daacoo-file-CKFinderPlugin-ImageResize</artifactId>
+            <version>${daacoo.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>daacoo-file-CKFinderPlugin-Watermark</artifactId>
+            <version>${daacoo.version}</version>
+        </dependency>
+
+        <!-- demo sub system by DaaCoo -->
+        <dependency>
+            <groupId>com.daacoo</groupId>
+            <artifactId>daacoo-demo</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!--热启动插件-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.5.15</version>
+                <configuration>
+                    <fork>true</fork> <!-- 如果没有该配置，devtools不会生效 -->
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.1</version>
+                <configuration>
+                    <!--put lib jar while war -->
+                    <!--打war时，同时把lib目录下的jar也打进去-->
+<!--                    <webResources>-->
+<!--                        <resource>-->
+<!--                            <directory>${project.basedir}/src/main/resources/lib</directory>-->
+<!--                            <targetPath>WEB-INF/lib/</targetPath>-->
+<!--                            <includes>-->
+<!--                                <include>**/*.jar</include>-->
+<!--                            </includes>-->
+<!--                        </resource>-->
+<!--                    </webResources>-->
+                    <!--打包配置-->
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                    <warName>${project.artifactId}</warName>
+                </configuration>
+            </plugin>
+
+        <!-- YUI Compressor (CSS/JS压缩) -->
+        <!--<plugin>
+            <groupId>net.alchim31.maven</groupId>
+            <artifactId>yuicompressor-maven-plugin</artifactId>
+            <version>1.5.1</version>
+            <executions>
+                <execution>
+                    <phase>prepare-package</phase>
+                    <goals>
+                        <goal>compress</goal>
+                    </goals>
+                </execution>
+            </executions>
+            <configuration>
+                <encoding>UTF-8</encoding>
+                <jswarn>false</jswarn>
+                <nosuffix>true</nosuffix>
+                <linebreakpos>50000</linebreakpos>
+                <sourceDirectory>src/main/resources/static</sourceDirectory>
+                <force>true</force>
+                <includes>
+                    <include>**/*.js</include>
+                    <include>**/*.css</include>
+                </includes>
+                <excludes>
+                    <exclude>**/*.min.js</exclude>
+                    <exclude>**/*.min.css</exclude>
+                    <exclude>**/fileinput.js</exclude>
+                    <exclude>**/validate/**</exclude>
+                    <exclude>**/bootstrap-table/**</exclude>
+                </excludes>
+            </configuration>
+        </plugin>-->
+
+        </plugins>
+        <!-- 项目名称，war包名称 -->
+        <finalName>${project.artifactId}</finalName>
+    </build>
+</project>

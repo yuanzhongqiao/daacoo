@@ -1,0 +1,13 @@
+D:\daacoo\daacoo\daacoo-generator\src\main\java\com\daacoo\generator\service\IGenTableColumnService.java
+D:\daacoo\daacoo\daacoo-generator\src\main\java\com\daacoo\generator\util\GenUtils.java
+D:\daacoo\daacoo\daacoo-generator\src\main\java\com\daacoo\generator\mapper\GenTableColumnMapper.java
+D:\daacoo\daacoo\daacoo-generator\src\main\java\com\daacoo\generator\controller\GenController.java
+D:\daacoo\daacoo\daacoo-generator\src\main\java\com\daacoo\generator\config\GenConfig.java
+D:\daacoo\daacoo\daacoo-generator\src\main\java\com\daacoo\generator\util\VelocityUtils.java
+D:\daacoo\daacoo\daacoo-generator\src\main\java\com\daacoo\generator\entity\GenTable.java
+D:\daacoo\daacoo\daacoo-generator\src\main\java\com\daacoo\generator\util\VelocityInitializer.java
+D:\daacoo\daacoo\daacoo-generator\src\main\java\com\daacoo\generator\entity\GenTableColumn.java
+D:\daacoo\daacoo\daacoo-generator\src\main\java\com\daacoo\generator\mapper\GenTableMapper.java
+D:\daacoo\daacoo\daacoo-generator\src\main\java\com\daacoo\generator\service\IGenTableService.java
+D:\daacoo\daacoo\daacoo-generator\src\main\java\com\daacoo\generator\service\impl\GenTableServiceImpl.java
+D:\daacoo\daacoo\daacoo-generator\src\main\java\com\daacoo\generator\service\impl\GenTableColumnServiceImpl.java

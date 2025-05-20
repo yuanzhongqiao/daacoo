@@ -1,0 +1,4 @@
+com\daacoo\file\manager\connector\plugins\Watermark.class
+com\daacoo\file\manager\connector\plugins\WatermarkCommand.class
+com\daacoo\file\manager\connector\plugins\WatermarkSettings.class
+com\daacoo\file\manager\connector\plugins\WatermarkPosition.class

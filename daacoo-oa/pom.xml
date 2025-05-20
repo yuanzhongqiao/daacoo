@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.daacoo</groupId>
+        <artifactId>daacoo</artifactId>
+        <version>4.8.0</version>
+    </parent>
+    <artifactId>daacoo-oa</artifactId>
+
+    <description>
+        OA系统模块
+    </description>
+    <dependencies>
+        <!-- 通用工具 -->
+        <dependency>
+            <groupId>com.daacoo</groupId>
+            <artifactId>daacoo-common</artifactId>
+        </dependency>
+        <!-- 系统模块 -->
+        <dependency>
+            <groupId>com.daacoo</groupId>
+            <artifactId>daacoo-system</artifactId>
+        </dependency>
+        <!-- 工作流模块 -->
+        <dependency>
+            <groupId>com.daacoo</groupId>
+            <artifactId>daacoo-activiti</artifactId>
+        </dependency>
+        <!-- framework模块 -->
+        <dependency>
+            <groupId>com.daacoo</groupId>
+            <artifactId>daacoo-framework</artifactId>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>daacoo</artifactId>
+        <groupId>com.daacoo</groupId>
+        <version>4.8.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>daacoo-file-manager</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>daacoo-file-CKFinder</module>
+        <module>daacoo-file-CKFinderPlugin-FileEditor</module>
+        <module>daacoo-file-CKFinderPlugin-ImageResize</module>
+        <module>daacoo-file-CKFinderPlugin-Watermark</module>
+    </modules>
+
+    <properties>
+        <servlet.version>2.5</servlet.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>servlet-api</artifactId>
+                <version>${servlet.version}</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>

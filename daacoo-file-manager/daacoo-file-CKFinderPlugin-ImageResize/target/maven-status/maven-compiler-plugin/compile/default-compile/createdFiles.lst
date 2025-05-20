@@ -1,0 +1,4 @@
+com\daacoo\file\manager\connector\plugins\ImageResizeInfoCommand.class
+com\daacoo\file\manager\connector\plugins\ImageResizeCommad.class
+com\daacoo\file\manager\connector\plugins\ImageResize.class
+com\daacoo\file\manager\connector\plugins\ImageResizeInitCommandEventHandler.class

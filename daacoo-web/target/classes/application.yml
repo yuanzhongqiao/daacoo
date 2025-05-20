@@ -1,0 +1,167 @@
+# 项目相关配置
+daacoo:
+  # 名称 name of the System
+  name: Enterprise Application Development Platform
+  # 版本
+  version: 4.8.0
+  # 版权年份
+  copyrightYear: 2025
+  # 实例演示开关
+  demoEnabled: true
+  # 文件路径 （ Windows配置:  D:/daacoo_userfiles   ;Linux配置:   /usr/projects/daacoo/daacoo_userfiles ）
+  profile: D:/daacoo_userfiles
+  # 获取ip地址开关
+  addressEnabled: true
+  # 是否启用CKFinder插件
+  ckfinderEnabled: true
+
+# 开发环境配置
+server:
+  # 服务器的HTTP端口，默认为80
+  port: 8888
+  servlet:
+    # 应用的访问路径
+    context-path: /daacoo
+  # http请求头大小
+  max-http-header-size: 65536
+  tomcat:
+    # tomcat的URI编码
+    uri-encoding: UTF-8
+    # 连接数满后的排队数，默认为100
+    accept-count: 1000
+    threads:
+      # tomcat最大线程数，默认为200
+      max: 800
+      # Tomcat启动初始化的线程数，默认值10
+      min-spare: 100
+# Spring配置
+spring:
+  # 模板引擎
+  thymeleaf:
+    mode: HTML
+    encoding: utf-8
+    # 缓存启用设置
+    cache: false
+  # 资源信息
+  messages:
+    # 国际化资源文件路径
+    basename: static/i18n/messages
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  #多个yml配置文件加载配置
+  profiles:
+    active: mybatis,druid,shiro,activiti,quartz
+  # 文件上传
+  servlet:
+    multipart:
+      # 单个文件大小
+      max-file-size: 50MB
+      # 设置总上传的文件大小
+      max-request-size: 100MB
+  # 服务模块
+  devtools:
+    restart:
+      # 热部署开关
+      enabled: true
+      #配置需要实时更新的目录
+      additional-paths: resources/**,static/**,templates/**
+
+# 用户配置
+user:
+  password:
+    # 密码错误{maxRetryCount}次锁定10分钟
+    maxRetryCount: 5
+
+# 日志配置
+logging:
+  level:
+    # ALL  : 是最低等级的，用于打开所有日志记录
+    # TRACE: 很低的日志级别，一般不会使用
+    # DEBUG: 指出细粒度信息事件对调试应用程序是非常有帮助的，主要用于开发过程中打印一些运行信息
+    # INFO : 消息在粗粒度级别上突出强调应用程序的运行过程。打印一些你感兴趣的或者重要的信息，这个可以用于生产环境中输出程序运行的一些重要信息，但是不能滥用，避免打印过多的日志
+    # WARN : 表明会出现潜在错误的情形，有些信息不是错误信息，但是也要给程序员的一些提示
+    # ERROR: 指出虽然发生错误事件，但仍然不影响系统的继续运行。打印错误和异常信息，如果不想输出太多的日志，可以使用这个级别
+    # FATAL: 指出每个严重的错误事件将会导致应用程序的退出。这个级别比较高了。重大错误，这种级别你可以直接停止程序了
+    # OFF  : 是最高等级的，用于关闭所有日志记录
+    # 建议只使用四个级别，优先级从高到低分别是ERROR、WARN、INFO、DEBUG
+    com.daacoo: DEBUG
+    org.springframework: WARN
+    # 打印activiti SQL到控制台
+    org.activiti.engine.impl.persistence.entity: DEBUG
+
+# 防止XSS攻击
+xss:
+  # 过滤开关
+  enabled: true
+  # 排除链接（多个用逗号分隔）
+  excludes: /system/notice/*,/oa/notify/*
+  # 匹配链接
+  urlPatterns: /system/*,/monitor/*,/tool/*
+
+# Swagger配置
+swagger:
+  # 是否开启swagger
+  enabled: true
+
+# knife4j配置
+knife4j:
+  # 是否开启Knife4j增强模式
+  enable: true
+  # 是否开启一个默认的跨域配置,该功能配合自定义Host使用
+  cors: false
+  # 是否开启生产环境保护策略
+  production: false
+  # 自定义文档集合，该属性是数组。支持多级目录（2.0.7版本开始支持）
+  documents:
+    - # 所属分组
+      group: WEB应用系统
+      # 类似于接口中的tag,对于自定义文档的分组
+      name: 自定义文档
+      # markdown文件路径,可以是一个文件夹(classpath:markdowns/*)，也可以是单个文件(classpath:markdowns/helpDoc.md)
+      locations: classpath:markdown/*
+  # 前端Ui的个性化配置属性
+  setting:
+    # Ui默认显示语言,目前主要有两种:中文(zh-CN)、英文(en-US)
+    language: zh-CN
+    # 是否显示界面中SwaggerModel功能
+    enableSwaggerModels: true
+    # 是否显示界面中"文档管理"功能
+    enableDocumentManage: true
+    # 自定义SwaggerModel名称,默认 (2.0.7版本开始支持)
+    # swaggerModelName: 实体类列表
+    # 是否开启界面中对某接口的版本控制,如果开启，后端变化后Ui界面会存在小蓝点
+    enableVersion: true
+    # 是否在每个Debug调试栏后显示“刷新变量”按钮,默认不显示
+    enableReloadCacheParameter: false
+    # 调试Tab是否显示AfterScript功能,默认开启
+    enableAfterScript: true
+    # 具体接口的过滤类型
+    enableFilterMultipartApiMethodType: POST
+    # 针对RequestMapping的接口请求类型,在不指定参数类型的情况下,如果不过滤,默认会显示7个类型的接口地址参数,如果开启此配置,默认展示一个Post类型的接口地址
+    enableFilterMultipartApis: false
+    # 是否开启请求参数缓存
+    enableRequestCache: false
+    # 是否启用Host
+    enableHost: false
+    enableHostText: ""
+    # 是否开启自定义主页内容（配合homeCustomLocation使用）
+    # enableHomeCustom: true
+    # 主页内容Markdown文件路径
+    # homeCustomLocation: classpath:markdown/home.md
+    # 是否禁用Ui界面中的搜索框
+    enableSearch: true
+    # 是否显示Footer
+    enableFooter: false
+    # 是否开启自定义Footer
+    enableFooterCustom: true
+    # 自定义Footer内容
+    footerCustomContent: Copyright 2025 [DaaCoo WEB APP for Enterprise ](http://www.daacoo.com/) DaaCoo
+    # 是否开启动态参数调试功能
+    enableDynamicParameter: true
+    # 是否启用调试
+    enableDebug: true
+    # 是否显示OpenAPI规范（2.0.8版本开始支持）
+    enableOpenApi: false
+    # 显示服务分组
+    enableGroup: true
