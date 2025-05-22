@@ -47,3 +47,8 @@ DaaCoo is a modular, open-source framework designed to empower small and medium-
 
 
 This introduction emphasizes DaaCoo’s value proposition for SMEs, its technical strengths, and practical use cases while encouraging adoption through clarity and actionable insights. Adjust links, licenses, or feature details as needed based on the project’s actual specifications.
+
+# DaaCoo  Feel Free to book a demo 
+www.daacoo.com
+
+# MIT 
