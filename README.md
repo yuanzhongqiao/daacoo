@@ -3,7 +3,11 @@
 [中文](./README-cn.md)
 
 
+
 DaaCoo is a modular, open-source framework designed to empower small and medium-sized enterprises (SMEs) with a streamlined approach to building tailored enterprise software solutions. Built on the robust Spring ecosystem, DaaCoo provides a ready-to-use template that accelerates the development of critical business applications, including **Enterprise OA (Office Automation)**, **Project Management Systems**, **Data Analytics Platforms**, and **HR Management Systems**.
+
+
+# For future: Low Code  ERP  WMS MES
 
 ### **Key Features**
 1. **Modular Architecture**  
