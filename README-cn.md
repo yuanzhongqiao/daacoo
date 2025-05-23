@@ -5,6 +5,7 @@
 响应式布局，支持大部分浏览器（如：IE9+浏览器、Google Chrome、火狐浏览器、360浏览器...)、平板、手机等主流设备
 
 - 感谢[RuoYi](https://gitee.com/y_project/RuoYi "若依")提供的框架
+- 参考了很多基于Ruoyi的优秀脚手架 一并感谢
 
 ## 其它版本
 
@@ -116,3 +117,11 @@
 
 
 ## 系统截图
+
+
+# MIT
+
+# 鸣谢
+
+- 感谢[RuoYi](https://gitee.com/y_project/RuoYi "若依")提供的框架
+- 参考了很多基于Ruoyi的优秀脚手架 一并感谢
