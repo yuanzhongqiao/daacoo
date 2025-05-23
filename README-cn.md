@@ -85,57 +85,34 @@
 2.  支持手机、平板等主流设备
 
 ## 使用说明
+
 1. 安装好系统所需的运行、开发环境（JDK1.8+、MySQL5.7+、maven3.6+、Git环境等...）
 2. 复制项目Git地址
-   ![](daacoo-web/src/main/resources/static/img/sys/direction/a.png)
+ 
 
 3. 打开IntelliJ IDEA，把上面的Git地址粘贴到URL中，Clone项目代码到本地
-   ![](daacoo-web/src/main/resources/static/img/sys/direction/b.png)
-   或者![](daacoo-web/src/main/resources/static/img/sys/direction/b2.png)
+ 
 
 4. 拉取完毕后，Maven就会自动下载项目所有依赖包到本地仓库。目录结构如下
-   ![](daacoo-web/src/main/resources/static/img/sys/direction/c.png)
 
 5. 第一次启动，需要install安装到本地仓库
-   ![](daacoo-web/src/main/resources/static/img/sys/direction/d.png)
+
 
 6. 导入数据文件的数据到本地MySQL数据库
-   ![](daacoo-web/src/main/resources/static/img/sys/direction/e.png)
+
 
 7. 修改MySQL数据库的连接信息
-   ![](daacoo-web/src/main/resources/static/img/sys/direction/f.png)
+
 
 8. 所有步骤没问题之后，就可以直接运行项目了，启动文件
-   ![](daacoo-web/src/main/resources/static/img/sys/direction/g.png)
-   ![](daacoo-web/src/main/resources/static/img/sys/direction/g2.png)
+
 
 9. 登录账号密码：system/system【提示：系统中的所有用户的密码与该登录名一致。如 test1密码为test1；test2密码为test2】
 
 10. 打包部署（本项目是打成war包的方式进行部署的）
-    ![](daacoo-web/src/main/resources/static/img/sys/direction/h.png)
+
 
 11. 打包完成后，到项目的目录下找到daacoo\daacoo-web\target\daacoo-web.war包，重命名为daacoo.war，然后直接放到Tomcat的webapps目录下，就可以运行起来了
-    ![](daacoo-web/src/main/resources/static/img/sys/direction/i.png)
+
 
 ## 系统截图
-1. 后台登录页面
-   ![](daacoo-web/src/main/resources/static/img/sys/a.png)
-
-2. 后台首页
-   ![](daacoo-web/src/main/resources/static/img/sys/b.png)
-
-3. CMS首页
-   ![](daacoo-web/src/main/resources/static/img/sys/c.png)
-   如需CMS官网资源文件（图片、音频），下载地址：链接：https://pan.baidu.com/s/15rrKWJNhSSP8pxnU7RNklQ?pwd=asdf 提取码：asdf 解压后整个文件夹复制到系统D盘即可
-
-4. 工作流
-   ![](daacoo-web/src/main/resources/static/img/sys/d.png)
-   ![](daacoo-web/src/main/resources/static/img/sys/d2.png)
-
-5. 文件管理器
-   ![](daacoo-web/src/main/resources/static/img/sys/e.png)
-
-6. 通知通告
-   ![](daacoo-web/src/main/resources/static/img/sys/f.png)
-   ![](daacoo-web/src/main/resources/static/img/sys/f2.png)
-   ![](daacoo-web/src/main/resources/static/img/sys/f3.png)
