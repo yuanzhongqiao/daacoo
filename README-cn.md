@@ -1,3 +1,9 @@
+# 鸣谢
+
+  这个开源基于著名的Ruoyi框架
+  以及大量优秀的基于Ruoyi框架的优秀框架
+  向默默无闻，不求名利的开源作者们致敬
+  
 # WEB应用系统
 
 ## 介绍
@@ -79,8 +85,8 @@
 22. DEMO管理：大数据（百万级）导入Demo、MarkDown在线编辑器
 
 ## 演示地址
-1. 演示地址：[daacoo](http://8.134.117.219:8080/daacoo "WEB应用系统") 用户名/密码：system / system
-2. 演示地址（企业官网）：[daacoo-cms](http://8.134.117.219:8080/daacoo/cms/index.html "企业官网")
+1. 演示地址：coming soon 马上
+2. 演示地址（企业官网）：www.daacoo.com
 
 ## 客户端说明
 1.  支持大部分主流浏览器（如：IE9+浏览器、Google Chrome、火狐浏览器、360浏览器等等。。。)
