@@ -1,21 +1,42 @@
-MIT License
+PKU License
 
-Copyright (c) 2021 淡蓝色的忧伤
+Copyright (c) 2025 www.daacoo.com
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+**PKU Open Source Agreement (PKU OSA)**  
+**Public Knowledge Unit Open Source Agreement**  
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The **Public Knowledge Unit Open Source Agreement (PKU OSA)** is a groundbreaking initiative spearheaded by Peking University (PKU) alumni to champion the free flow of open-source knowledge while protecting the rights and livelihoods of contributors. Designed as a visionary framework, the PKU OSA seeks to harmonize accessibility, fairness, and corporate responsibility in the global open-source ecosystem.  
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+### **Core Principles of the PKU OSA**  
+1. **Free Access for Individuals and Small Businesses**  
+   - PKU-licensed open-source projects are freely available to individual developers, startups, and small-to-medium enterprises (SMEs). This empowers grassroots innovation and fosters community-driven growth without financial barriers.  
+
+2. **Standardized Licensing Fees for Large Enterprises**  
+   - Mid-sized and large corporations using PKU-licensed software are required to pay a structured annual fee to the original contributors, ensuring creators receive tangible rewards for their work.  
+   - **Fee Structure**:  
+     - **Enterprises with annual revenue > ¥10 million but ≤ ¥100 million**: ¥5,888/year.  
+     - **Enterprises with annual revenue > ¥100 million**: ¥12,888/year.  
+
+3. **Legal and Technical Safeguards for Contributors**  
+   - **Intellectual Property Protection**: The PKU OSA is underpinned by a dedicated association that automatically secures global intellectual property (IP) certifications for licensed projects, safeguarding contributors’ rights.  
+   - **Usage Monitoring**: The association employs automated systems to track large enterprises’ usage of PKU-licensed software and facilitates fee collection, ensuring transparency and compliance.  
+
+### **Addressing Key Challenges**  
+The PKU OSA resolves three critical issues in the open-source landscape:  
+- **Financial Sustainability for Contributors**: Ensures open-source authors receive fair compensation, addressing long-standing underpayment in the sector.  
+- **Livelihood Security for Developers**: Empowers foundational software technologists to sustain independent careers through recognized technical contributions.  
+- **Corporate Social Responsibility (CSR) Integration**: Provides large enterprises with a structured channel to fulfill CSR obligations by supporting open-source innovation.  
+
+### **Global Vision for a Thriving Open-Source Ecosystem**  
+By promoting equitable access and sustainable incentives, the PKU OSA aims to:  
+- Catalyze the growth of open-source communities in China and worldwide.  
+- Foster a collaborative, inclusive, and prosperous tech ecosystem where knowledge remains a public good.  
+
+### **Mission Statement**  
+The PKU OSA is more than a license—it is a movement. By aligning the interests of contributors, users, and corporations, it strives to create a future where open-source innovation thrives, ensuring creators are rewarded and knowledge is shared freely.  
+
+### **Join the PKU OSA Movement**  
+Developers, enterprises, and communities are invited to adopt the PKU OSA and contribute to a more equitable, sustainable open-source world. Together, we can redefine the future of technology—one line of code at a time.  
+
+---  
+This refined introduction emphasizes the PKU OSA’s **practical mechanisms**, **legal safeguards**, and **global aspirations**, positioning it as a transformative solution for the open-source community.
