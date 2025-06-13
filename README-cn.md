@@ -119,7 +119,9 @@
 ## 系统截图
 
 
-# MIT
+# PKU 开源协议
+
+[PKU open source Agreement](https://www.gitpp.com/pkuLicense/pku-open-source-license)
 
 # 鸣谢
 
