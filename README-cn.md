@@ -3,7 +3,7 @@
   这个开源基于著名的Ruoyi框架
   以及大量优秀的基于Ruoyi框架的优秀框架
   向默默无闻，不求名利的开源作者们致敬
-  
+  本开源基于Ruoyi等开源项目，但是开源协议变更为PKU开源协议：[PKU open source Agreement](https://www.gitpp.com/pkuLicense/pku-open-source-license)
 # WEB应用系统
 
 ## 介绍
