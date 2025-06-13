@@ -58,4 +58,6 @@ This introduction emphasizes DaaCoo’s value proposition for SMEs, its technica
 # DaaCoo  Feel Free to book a demo 
 www.daacoo.com
 
-# MIT 
+# PKU open source Agreement
+
+[PKU open source Agreement](https://www.gitpp.com/pkuLicense/pku-open-source-license)
