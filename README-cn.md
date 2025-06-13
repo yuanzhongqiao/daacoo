@@ -7,9 +7,10 @@
 - 感谢[RuoYi](https://gitee.com/y_project/RuoYi "若依")提供的框架
 - 参考了很多基于Ruoyi的优秀脚手架 一并感谢
 
-## 其它版本
+## 大模型原生
 
-- GitHub（MySQL版本）：[daacoo](https://github.com/yuanzhongqiao/daacoo "WEB应用系统")
+- 自带大模型
+- 自然语言交互的ERP
 
 
 ## 主要特性
