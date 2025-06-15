@@ -1,10 +1,14 @@
+# DaaCoo LLm-native Enterpise Application Suite Enterprise Application Development
+
+# Database Config
 # 数据源配置
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.cj.jdbc.Driver
     druid:
-      # 主库数据源
+      # 主库数据源   
+      # MySQL localhost user password 
       master:
         url: jdbc:mysql://8.138.26.181:3306/daacoo?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true
         username: daacoo
@@ -12,7 +16,7 @@ spring:
         password: daacoo123456
       # 从库数据源
       slave:
-        # 从数据源开关/默认关闭
+        # 从数据源开关/默认关闭 
         enabled: false
         url: jdbc:mysql://localhost:3307/daacoo-b?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
         username: daacoo
