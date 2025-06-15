@@ -27,6 +27,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * WorkFlow Configration
  * 工作流相关配置
  * @author daacoo
  */
@@ -60,6 +61,7 @@ public class ActivitiConfig {
     private CustomGroupEntityManagerFactory customGroupEntityManagerFactory;
 
     /**
+     * Flow Config
      * 流程配置，与spring整合采用SpringProcessEngineConfiguration这个实现
      * @param dataSource
      * @param transactionManager
@@ -123,6 +125,7 @@ public class ActivitiConfig {
 
     /**
      * 八大接口
+     * Interface
      */
     @Bean
     public RepositoryService repositoryService(ProcessEngine processEngine) {
