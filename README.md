@@ -9,14 +9,20 @@
 
 DaaCoo is a modular, open-source framework designed to empower small and medium-sized enterprises (SMEs) with a streamlined approach to building tailored enterprise software solutions. Built on the robust Spring ecosystem, DaaCoo provides a ready-to-use template that accelerates the development of critical business applications, including **Enterprise OA (Office Automation)**, **Project Management Systems**, **Data Analytics Platforms**, and **HR Management Systems**.
 
-# LLM native ERP
+# DaaCooERP  LLM native ERP by DaaCoo
 
+DaaCoo ERP
+[DaaCoo ERP](https://github.com/yuanzhongqiao/daacooerp)
 
 1. **An LLM-native ERP is a revolutionary enterprise management system powered entirely by Large Language Models (LLMs), enabling users to interact with and control ERP functions through intuitive natural language commands, eliminating the need for complex interfaces or technical expertise.**  
 
 2. **By leveraging AI to understand human language, LLM-native ERPs automate core business processes—such as inventory tracking, financial reporting, and CRM—while providing real-time insights and predictive analytics through conversational interactions.**  
 
 3. **This innovation democratizes enterprise resource planning for SMEs, making sophisticated business automation accessible, cost-efficient, and user-friendly—all while fostering a collaborative, AI-driven future for organizational efficiency.**  
+
+
+
+# DaaCoo: An Open-Source, Spring-Based Framework for Rapid Enterprise Application Development
 
 ---  
 **Key Highlights**:  
