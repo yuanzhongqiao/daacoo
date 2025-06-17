@@ -18,6 +18,10 @@
 - 自带大模型
 - 自然语言交互的ERP
 
+# DaaCoo是一个编程框架，基于Spring，基于Ruoyi
+
+Daacoo ERP是第一个产品  
+[Daacoo ERP](https://github.com/yuanzhongqiao/daacooerp)
 
 ## 主要特性
 1. 完全响应式布局（支持电脑、平板、手机等所有主流设备）
