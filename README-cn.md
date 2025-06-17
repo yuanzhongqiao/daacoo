@@ -4,7 +4,7 @@
   以及大量优秀的基于Ruoyi框架的优秀框架
   向默默无闻，不求名利的开源作者们致敬
   本开源基于Ruoyi等开源项目，但是开源协议变更为PKU开源协议：[PKU open source Agreement](https://www.gitpp.com/pkuLicense/pku-open-source-license)
-# WEB应用系统
+# DaaCoo  企业级WEB应用系统的开发框架
 
 ## 介绍
 &emsp;&emsp;本系统（基于SpringBoot+MyBatis+Apache Shiro+Bootstrap+Thymeleaf） 可用于开发所有企业级WEB应用系统（如:各种后台管理系统、CRM、ERP、CMS、OA、博客、论坛等...）。
@@ -23,6 +23,7 @@
 Daacoo ERP是第一个产品  
 [Daacoo ERP](https://github.com/yuanzhongqiao/daacooerp)
 
+# DaaCoo是一个编程框架，基于Spring，基于Ruoyi 汇集了很多功能，用户可以自由裁减、修改
 ## 主要特性
 1. 完全响应式布局（支持电脑、平板、手机等所有主流设备）
 2. 集成文件管理器（视频、音频、PDF、world、excel等多文件的上传与下载；图片、音频、视频在线预览等）
