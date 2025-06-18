@@ -5,7 +5,7 @@
   向默默无闻，不求名利的开源作者们致敬
   本开源基于Ruoyi等开源项目，但是开源协议变更为PKU开源协议：[PKU open source Agreement](https://www.gitpp.com/pkuLicense/pku-open-source-license)
 # DaaCoo  企业级WEB应用系统的开发框架
-
+  daacoo 社群 加qq  274288672  加微信 gitpp88
 ## 介绍
 &emsp;&emsp;本系统（基于SpringBoot+MyBatis+Apache Shiro+Bootstrap+Thymeleaf） 可用于开发所有企业级WEB应用系统（如:各种后台管理系统、CRM、ERP、CMS、OA、博客、论坛等...）。
 响应式布局，支持大部分浏览器（如：IE9+浏览器、Google Chrome、火狐浏览器、360浏览器...)、平板、手机等主流设备
