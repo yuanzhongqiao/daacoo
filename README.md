@@ -2,21 +2,21 @@ English | [中文](README.zh.md)
 
 <div align="center">
 
-  <a href="https://elatoai.com"><picture>
+  <a href="https://daacoo.com"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/darkelato.png">
     <source media="(prefers-color-scheme: light)" srcset="assets/lightelato.png">
     <img alt="elato logo" src="assets/lightelato.png" height="70" style="max-width: 100%;">
   </picture></a>
   
 <div style="display:flex; flex-direction:row; align-items:center; flex-wrap:wrap; justify-content:center;">
-  <a style="display:inline-flex;" href="https://cookbook.openai.com/examples/voice_solutions/running_realtime_api_speech_on_esp32_arduino_edge_runtime_elatoai"><img src="assets/oai.png" height="42" style="width: auto;"></a>  
-  <a style="display:inline-flex;" href="https://www.elatoai.com/docs"><img src="assets/docs.png" height="42" style="width: auto;"></a>
+  <a style="display:inline-flex;" href="https://cookbook.openai.com/examples/voice_solutions/running_realtime_api_speech_on_esp32_arduino_edge_runtime_daacoo"><img src="assets/oai.png" height="42" style="width: auto;"></a>  
+  <a style="display:inline-flex;" href="https://www.daacoo.com/docs"><img src="assets/docs.png" height="42" style="width: auto;"></a>
   <a style="display:inline-flex;" href="https://discord.gg/KJWxDPBRUj"><img src="assets/discord.png" height="42" style="width: auto;"></a>
-<!-- <a style="display:inline-flex;" href="https://elatoai.com/home"><img src="assets/try.png" height="42" style="width: auto;"></a> -->
-      <a style="display:inline-flex;" href="https://www.kickstarter.com/projects/elatoai/elato-make-toys-talk-with-ai-voices"><img src="assets/ks.png" height="42" style="width: auto;"></a>
- <!-- <a style="display:inline-flex;" href="https://www.elatoai.com/products/ai-devkit"><img src="assets/diy.png" height="42" style="width: auto;"></a> -->
+<!-- <a style="display:inline-flex;" href="https://daacoo.com/home"><img src="assets/try.png" height="42" style="width: auto;"></a> -->
+      <a style="display:inline-flex;" href="https://www.kickstarter.com/projects/daacoo/elato-make-toys-talk-with-ai-voices"><img src="assets/ks.png" height="42" style="width: auto;"></a>
+ <!-- <a style="display:inline-flex;" href="https://www.daacoo.com/products/ai-devkit"><img src="assets/diy.png" height="42" style="width: auto;"></a> -->
 </div>
-<a href="https://www.kickstarter.com/projects/elatoai/elato-make-toys-talk-with-ai-voices" target="_blank">
+<a href="https://www.kickstarter.com/projects/daacoo/elato-make-toys-talk-with-ai-voices" target="_blank">
  <img src="assets/cover.png" alt="Elato Logo" width="100%">
 </a>
 
@@ -28,21 +28,21 @@ English | [中文](README.zh.md)
 - **Apr 15 2026:** You can launch over 100+ STT, LLM, TTS voice pipeline systems with a FastAPI server with Pipecat!
 - **Mar 14 2026:** Elato just launched Local AI Toys on Pi Day.🎉🎉 Your ESP32 devices can now support local AI models and voice generation with frontier Local LLMs and TTS models like Qwen, Mistral, and more with MLX. Check it out [here](https://www.github.com/akdeb/local-ai-toys). 
 
-# 👾 ElatoAI: Realtime Voice AI Models on Arduino ESP32
+# 👾 DaaCoo AI: Realtime Voice AI Models on Arduino ESP32
 
 Realtime AI Speech powered by 100+ Voice AI models on ESP32, with Secure WebSockets & Edge Functions for >20-minute uninterrupted conversations globally.
 
-- [🚀 Quick Start](https://www.elatoai.com/docs/quickstart)
-- [Build with PlatformIO](https://www.elatoai.com/docs/platformio)
-- [Build on Arduino IDE](https://www.elatoai.com/docs/arduino)
-- [Deploy globally](https://www.elatoai.com/docs/blog/deploying-globally)
-- [🤖🤖🤖 Deploy multiple devices](https://www.elatoai.com/docs/blog/multiple-devices)
+- [🚀 Quick Start](https://www.daacoo.com/docs/quickstart)
+- [Build with PlatformIO](https://www.daacoo.com/docs/platformio)
+- [Build on Arduino IDE](https://www.daacoo.com/docs/arduino)
+- [Deploy globally](https://www.daacoo.com/docs/blog/deploying-globally)
+- [🤖🤖🤖 Deploy multiple devices](https://www.daacoo.com/docs/blog/multiple-devices)
 
 ## 📽️ Demo Video
 
 <div align="center">
-    <a href="[https://www.youtube.com/watch?v=o1eIAwVll5I](https://www.youtube.com/shorts/Gu-uiXXGEOQ)" target="_blank">
-    <img src="https://raw.githubusercontent.com/akdeb/ElatoAI/refs/heads/main/assets/thumbnail.png" alt="ElatoAI Demo Video" width="100%" style="border-radius:10px" />
+    <a href="https://www.youtube.com/shorts/Gu-uiXXGEOQ" target="_blank">
+    <img src="https://github.com/yuanzhongqiao/daacoo/blob/main/assets/thumbnail.png" alt="DaaCoo AI Demo Video" width="100%" style="border-radius:10px" />
   </a>
 </div>
 
@@ -51,11 +51,11 @@ Video links: [OpenAI Demo](https://youtu.be/o1eIAwVll5I) | [Gemini Demo](https:/
 ## 🧠 Models
 
 ### Deno Edge
-1. [OpenAI Realtime API](https://github.com/akdeb/ElatoAI/tree/main/server/deno/models/openai)
-2. [Gemini Live API](https://github.com/akdeb/ElatoAI/tree/main/server/deno/models/gemini)
-3. [xAI Grok Voice Agent API](https://github.com/akdeb/ElatoAI/tree/main/server/deno/models/grok)
-4. [Eleven Labs Conversational AI Agents](https://github.com/akdeb/ElatoAI/tree/main/server/deno/models/elevenlabs)
-5. [Hume AI EVI-4](https://github.com/akdeb/ElatoAI/tree/main/server/deno/models/hume)
+1. [OpenAI Realtime API](https://github.com/akdeb/DaaCoo AI/tree/main/server/deno/models/openai)
+2. [Gemini Live API](https://github.com/akdeb/DaaCoo AI/tree/main/server/deno/models/gemini)
+3. [xAI Grok Voice Agent API](https://github.com/akdeb/DaaCoo AI/tree/main/server/deno/models/grok)
+4. [Eleven Labs Conversational AI Agents](https://github.com/akdeb/DaaCoo AI/tree/main/server/deno/models/elevenlabs)
+5. [Hume AI EVI-4](https://github.com/akdeb/DaaCoo AI/tree/main/server/deno/models/hume)
 
 ### Cloudflare Workers
 1. LLM - [80+ Models](https://developers.cloudflare.com/workers-ai/models/?tasks=Text+Generation) OpenAI, Gemini, xAI, and more.
@@ -69,7 +69,7 @@ Video links: [OpenAI Demo](https://youtu.be/o1eIAwVll5I) | [Gemini Demo](https:/
 
 ## 📱 App Design
 
-Control your ESP32 AI device from your phone with the ElatoAI webapp.
+Control your ESP32 AI device from your phone with the DaaCoo AI webapp.
 
 <img src="assets/mockups.png" alt="App Screenshots" width="100%">
 
@@ -106,7 +106,7 @@ Control your ESP32 AI device from your phone with the ElatoAI webapp.
 
 ## Project Architecture
 
-ElatoAI consists of three main components:
+DaaCoo AI consists of three main components:
 
 1. **Frontend Client** (`Next.js` hosted on Vercel) - to create and talk to your AI agents and 'send' it to your ESP32 device
 2. **Edge Server Functions** (`Deno Edge` or `Cloudflare Workers`) - to handle the websocket connections from the ESP32 device and the LLM Provider API calls
@@ -155,7 +155,7 @@ flowchart TD
 
 ```mermaid
 graph TD
-  repo[ElatoAI]
+  repo[DaaCoo AI]
   repo --> frontend[Frontend Vercel NextJS]
   repo --> server[Deno Edge Function / Cloudflare Workers]
   repo --> esp32[ESP32 Arduino Client]
@@ -208,4 +208,4 @@ We value your contributions! Here are some ideas to get you started:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-**Check out our hardware offerings at [ElatoAI Products](https://www.elatoai.com/). If you find this project interesting or useful, support us by starring this project on GitHub. ⭐**
+**Check out our hardware offerings at [DaaCoo AI Products](https://www.daacoo.com/). If you find this project interesting or useful, support us by starring this project on GitHub. ⭐**
