@@ -26,7 +26,7 @@ English | [中文](README.zh.md)
 ## News
 - **Apr 17 2026:** Create a Global Devices/Toys network with Cloudflare Voice Agents and Durable Objects. Cloudflare's Workers AI provides Deepgram STT/TTS natively so all you need to bring is an LLM API Key to create a scalable, low-latency voice AI pipeline.
 - **Apr 15 2026:** You can launch over 100+ STT, LLM, TTS voice pipeline systems with a FastAPI server with Pipecat!
-- **Mar 14 2026:** Elato just launched Local AI Toys on Pi Day.🎉🎉 Your ESP32 devices can now support local AI models and voice generation with frontier Local LLMs and TTS models like Qwen, Mistral, and more with MLX. Check it out [here](https://www.github.com/akdeb/local-ai-toys). 
+- **Mar 14 2026:** Elato just launched Local AI Toys on Pi Day.🎉🎉 Your ESP32 devices can now support local AI models and voice generation with frontier Local LLMs and TTS models like Qwen, Mistral, and more with MLX. Check it out [here](https://github.com/yuanzhongqiao/deeptoys). 
 
 # 👾 DaaCoo AI: Realtime Voice AI Models on Arduino ESP32
 
