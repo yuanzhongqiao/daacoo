@@ -24,7 +24,7 @@
 ## 新闻
 - **2026 年 4 月 17 日：** 现在可以用 Cloudflare Voice Agents 和 Durable Objects 构建全球化的设备/玩具语音网络。Cloudflare Workers AI 原生提供 Deepgram STT/TTS，因此你只需要提供一个 LLM API Key，就能搭建可扩展、低延迟的语音 AI 流水线。
 - **2026 年 4 月 15 日：** 现在你可以通过基于 Pipecat 的 FastAPI 服务器部署 100 多种 STT、LLM、TTS 语音流水线系统。
-- **2026 年 3 月 14 日：** Elato 在 Pi Day 发布了 Local AI Toys。你的 ESP32 设备现在可以通过 MLX 运行本地 AI 模型和语音生成，支持 Qwen、Mistral 等本地前沿 LLM 和 TTS 模型。点击[这里](https://www.github.com/akdeb/local-ai-toys)查看。
+- **2026 年 3 月 14 日：** DaaCoo 在 Pi Day 发布了 Local AI Toys。你的 ESP32 设备现在可以通过 MLX 运行本地 AI 模型和语音生成，支持 Qwen、Mistral 等本地前沿 LLM 和 TTS 模型。点击[这里](https://github.com/yuanzhongqiao/deeptoys)查看。
 
 # 👾 DaaCoo AI：在 Arduino ESP32 上运行实时语音 AI 模型
 
