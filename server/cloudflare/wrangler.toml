@@ -1,0 +1,26 @@
+name = "elato"
+main = "src/index.ts"
+compatibility_date = "2026-04-17"
+compatibility_flags = ["nodejs_compat"]
+
+[ai]
+binding = "AI"
+
+[[durable_objects.bindings]]
+name = "ElatoVoiceSession"
+class_name = "ElatoVoiceSession"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["ElatoOpenAiVoiceAgent"]
+
+[[migrations]]
+tag = "v2"
+renamed_classes = [
+  { from = "ElatoOpenAiVoiceAgent", to = "ElatoVoiceSession" }
+]
+
+[observability]
+[observability.logs]
+enabled = true
+invocation_logs = true
