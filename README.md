@@ -41,7 +41,7 @@ Realtime AI Speech powered by 100+ Voice AI models on ESP32, with Secure WebSock
 ## 📽️ Demo Video
 
 <div align="center">
-    <a href="https://www.youtube.com/watch?v=o1eIAwVll5I" target="_blank">
+    <a href="[https://www.youtube.com/watch?v=o1eIAwVll5I](https://www.youtube.com/shorts/Gu-uiXXGEOQ)" target="_blank">
     <img src="https://raw.githubusercontent.com/akdeb/ElatoAI/refs/heads/main/assets/thumbnail.png" alt="ElatoAI Demo Video" width="100%" style="border-radius:10px" />
   </a>
 </div>
