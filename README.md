@@ -42,7 +42,12 @@ This is a **remarkably complete** edge voice AI project. Let me break down the c
 
 ---
 
-## 🎯 TL;DR
+
+## 🎥 Demo Video
+
+[![DeepToys Demo](assets/demo.png)](https://www.youtube.com/shorts/Gu-uiXXGEOQ)
+
+## 🎯 DaaCoo AI
 
 > **With a single ESP32 (a ~$3 chip) + WiFi, you get a globally connected voice AI toy/device powered by OpenAI/Gemini/Grok/ElevenLabs/Hume — end-to-end latency under 2 seconds.**
 
