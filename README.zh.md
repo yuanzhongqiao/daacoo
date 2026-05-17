@@ -11,8 +11,7 @@
 <div style="display:flex; flex-direction:row; align-items:center; flex-wrap:wrap; justify-content:center;">
   <a style="display:inline-flex;" href="https://cookbook.openai.com/examples/voice_solutions/running_realtime_api_speech_on_esp32_arduino_edge_runtime_daacoo"><img src="assets/oai.png" height="42" style="width: auto;"></a>  
   <a style="display:inline-flex;" href="https://www.daacoo.com/docs"><img src="assets/docs.png" height="42" style="width: auto;"></a>
-  <a style="display:inline-flex;" href="https://discord.gg/KJWxDPBRUj"><img src="assets/discord.png" height="42" style="width: auto;"></a>
-      <a style="display:inline-flex;" href="https://www.kickstarter.com/projects/daacoo/elato-make-toys-talk-with-ai-voices"><img src="assets/ks.png" height="42" style="width: auto;"></a>
+ 
 </div>
 <a href="https://www.kickstarter.com/projects/daacoo/elato-make-toys-talk-with-ai-voices" target="_blank">
  <img src="assets/cover.png" alt="Elato Logo" width="100%">
