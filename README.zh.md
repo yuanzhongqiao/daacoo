@@ -34,6 +34,10 @@
 
 ---
 
+## 🎥 Demo Video
+
+[![DeepToys Demo](assets/demo.png)](https://www.youtube.com/shorts/Gu-uiXXGEOQ) 
+
 ## 📐 架构三层解读
 
 | 层级 | 技术 | 职责 |
