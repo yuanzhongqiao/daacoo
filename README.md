@@ -11,7 +11,8 @@ English | [中文](README.zh.md)
 <div style="display:flex; flex-direction:row; align-items:center; flex-wrap:wrap; justify-content:center;">
   <a style="display:inline-flex;" href="https://cookbook.openai.com/examples/voice_solutions/running_realtime_api_speech_on_esp32_arduino_edge_runtime_daacoo"><img src="assets/oai.png" height="42" style="width: auto;"></a>  
   <a style="display:inline-flex;" href="https://www.daacoo.com/docs"><img src="assets/docs.png" height="42" style="width: auto;"></a>
- 
+
+ </div>
   
  <img src="assets/cover.png" alt="Elato Logo" width="100%">
 </a>
