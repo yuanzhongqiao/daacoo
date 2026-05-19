@@ -1,3 +1,8 @@
+##  12 US dollars smart voice robot
+
+ESP32‑based AI voice assistant hardware solution;
+
+
 English | [中文](README.zh.md)
 
 <div align="center">
