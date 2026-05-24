@@ -1,7 +1,9 @@
-##  12 US dollars smart voice robot
+## want  12 US dollars smart voice robot   ??   email   19910761882@163.com
 
 ESP32‑based AI voice assistant hardware solution;
 
+
+ email   19910761882@163.com
 
 English | [中文](README.zh.md)
 
@@ -143,3 +145,11 @@ This is arguably the **lowest-barrier, most feature-complete** solution availabl
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 **Check out our hardware offerings at [DaaCoo AI Products](https://www.daacoo.com/). If you find this project interesting or useful, support us by starring this project on GitHub. ⭐**
+
+
+## want  12 US dollars smart voice robot   ??   email   19910761882@163.com
+
+ESP32‑based AI voice assistant hardware solution;
+
+
+ email   19910761882@163.com
