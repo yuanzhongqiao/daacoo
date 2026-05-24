@@ -3,7 +3,7 @@
 ESP32‑based AI voice assistant hardware solution;
 
 
- email   19910761882@163.com
+ If you want to buy the hardware, please contact me  email   19910761882@163.com
 
 English | [中文](README.zh.md)
 
