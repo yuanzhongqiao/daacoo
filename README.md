@@ -1,4 +1,7 @@
-## want  12 US dollars smart voice robot   ??   email   19910761882@163.com
+## want  12 US dollars smart voice robot   ??    ----->   https://www.daacoo.com/products
+
+
+email   19910761882@163.com
 
 ESP32‑based AI voice assistant hardware solution;
 
